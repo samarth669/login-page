@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>SIGN UP | CodeLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title">SIGN UP</div>
+    <form id="signupForm">
+      <div class="field">
+        <input type="email" id="email" required>
+        <label>Email Address</label>
+      </div>
+      <div class="field">
+        <input type="password" id="password" required>
+        <label>Password</label>
+      </div>
+      <div class="field">
+        <input type="password" id="confirmPassword" required>
+        <label>Confirm Password</label>
+      </div>
+      <div class="content">
+        <div class="checkbox">
+          <input type="checkbox" id="terms">
+          <label for="terms">I accept the terms and conditions</label>
+        </div>
+        <div class="pass-link">
+          <a href="resetpassword.html">Forgot password?</a> <!-- Optional; link to your reset page -->
+        </div>
+      </div>
+      <div class="field">
+        <input type="submit" value="Sign Up">
+      </div>
+      <div class="signup-link">
+        Already a Member? <a href="index.html">Login now</a>
+      </div>
+    </form>
+  </div>
+  <script src="register.js"></script> <!-- Add your signup validation/submission logic here -->
+</body>
+</html>
